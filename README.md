@@ -59,8 +59,10 @@ It reveals that **Olist steadily grew its customer base** — both new and retur
 Measures how much a customer spends per order — a key profitability metric.
 
 📸 *Result (Overall & Monthly):*
-![AOV by month](results/KPI%202%20%20Average%20order%20value%20by%20month.png)
+
 ![AOV overall](results/KPI%202%20%20Average%20order%20value.png)
+
+![AOV by month](results/KPI%202%20Average%20order%20value%20by%20month.png)
 
 - **Overall AOV:** R$ **159.83**
 - Monthly values stay between **R$ 150–170**, suggesting consistent pricing and customer spend.
@@ -73,7 +75,9 @@ Measures how much a customer spends per order — a key profitability metric.
 Understanding preferred payment types helps optimize checkout and conversion.
 
 📸 *Results:*
+
 ![Most used payment method](results/KPI%203%20Most%20used%20payment%20method.png)
+
 ![Total paid per method](results/KPI%203%20Total%20paid%20for%20payment%20method.png)
 
 - **Credit card:** 74,275 orders → R$ 12.1M  
@@ -88,14 +92,15 @@ Understanding preferred payment types helps optimize checkout and conversion.
 Highlights product categories with the most units sold.
 
 📸 *Result:*
+
 ![Top categories](results/KPI%204%20Top%20selling%20products.png)
 
 Top categories:
-1. 🛏️ bed_bath_table  
-2. 💄 health_beauty  
-3. 🏋️‍♀️ sports_leisure  
-4. 🪑 furniture_decor  
-5. 💻 computers_accessories
+1. bed_bath_table  
+2. health_beauty  
+3. sports_leisure  
+4. furniture_decor  
+5. computers_accessories
 
 💡 **Insight:** Home and lifestyle products lead — typical of a marketplace focused on comfort and self-care.
 
@@ -105,6 +110,7 @@ Top categories:
 Shows total sales trend combining product prices and freight costs.
 
 📸 *Result:*
+
 ![Revenue by month](results/KPI%205%20Revenue%20by%20month.png)
 
 💡 **Insight:** Revenue grew consistently during 2017–2018, peaking mid-2018 — possibly linked to seasonality and marketing campaigns.
@@ -113,11 +119,11 @@ Shows total sales trend combining product prices and freight costs.
 
 ## 🔍 Technical Highlights
 
-- ✅ 100% SQL analysis (no external tools)
-- ⚡ Optimized with **indexes and helper tables**
-- 🧮 Used **CTEs** (`WITH`) for cleaner logic and better readability
-- 💬 Added formatted outputs (`printf('R$ %, .2f')`) for presentation
-- 📊 All queries are included in [`sql/olist_analysis.sql`](sql/olist_analysis.sql)
+- 100% SQL analysis (no external tools)
+- Optimized with **indexes and helper tables**
+- Used **CTEs** (`WITH`) for cleaner logic and better readability
+- Added formatted outputs (`printf('R$ %, .2f')`) for presentation
+- All queries are included in [`sql/olist_analysis.sql`](sql/olist_analysis.sql)
 
 ---
 
@@ -134,8 +140,9 @@ Shows total sales trend combining product prices and freight costs.
 ## 🚀 About the Analyst
 
 👩‍💻 **Monica Venzor**  
-Data Analyst passionate about transforming raw data into business insights.  
-Currently building a portfolio of SQL, Excel, and Python projects to support data-driven decision-making.
+Biotechnology professional transitioning into **Data Analytics**.  
+I combine my scientific background with data-driven thinking to uncover insights and support strategic decisions.  
+Currently building a portfolio in **SQL, Excel, and Python**, focused on practical, business-oriented projects.  
 
 📬 [LinkedIn](https://www.linkedin.com/in/monicavenzor/) | [GitHub](https://github.com/MonicaVenzor)  
 
